@@ -1,6 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=300&section=header&text=My Portfolio Site v1.0 &fontSize=70"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=300&section=header&text=My%20Portfolio%20Site%20v1.0 &fontSize=70"/>
 
-<img class = "photo" src="public/ReadMeMain.jpg" alt="웹사이트" width="400" height="900">
+<img src="https://github.com/shincharl/My_Portfolio/blob/master/public/ReadMeMain.JPG" width="400" />
 
 <style>
   .photo {
@@ -21,7 +21,7 @@
 
 👩‍💻 기술스택
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,nextjs,git,supabase)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,git,supabase)](https://skillicons.dev)
 
 <br/><br/>
 💁 설명
