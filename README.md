@@ -5,7 +5,11 @@
 
 <!-- 메인 이미지 -->
 <p align="center">
+<<<<<<< HEAD
 <img src="https://github.com/shincharl/My_Portfolio/blob/master/public/ReadMeMain.JPG" width="400" alt="웹사이트 대표 이미지"/>
+=======
+  <img src="https://raw.githubusercontent.com/shincharl/My_Portfolio/master/public/ReadMeMain.JPG" width="400" alt="웹사이트 대표 이미지" />
+>>>>>>> fe26e4cf0951346bb503ad26d01e927a9202155b
 </p>
 
 <br><br>
