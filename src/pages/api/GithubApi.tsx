@@ -1,4 +1,6 @@
-export default async function handler(req, res){
+import { NextApiRequest, NextApiResponse } from "next";
+
+export default async function handler(req: NextApiRequest, res: NextApiResponse){
     const username = "shincharl";
     const response = await fetch(`https://api.github.com/users/${username}/repos`);
     const data = await response.json();
