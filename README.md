@@ -4,7 +4,7 @@
 
 <!-- 메인 이미지 -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shincharl/My_Portfolio/master/public/ReadMeMain.JPG" width="400" alt="웹사이트 대표 이미지" />
+  <img width="1905" height="5469" alt="Screenshot 2025-12-31 at 15 10 20" src="https://github.com/user-attachments/assets/7fb79af4-026d-44d0-8c98-4186de1d83f4" />
 </p>
 
 <br><br>
