@@ -9,7 +9,7 @@
 
 <br><br>
 
-사이트 주소 : https://vercel.com/gwi-labs-projects/my-portfolio-m81x
+사이트 주소 : https://my-portfolio-m81x.vercel.app/
 
 ## 🗓️ 개발 기간
 
