@@ -9,6 +9,8 @@
 
 <br><br>
 
+사이트 주소 : https://vercel.com/gwi-labs-projects/my-portfolio-m81x
+
 ## 🗓️ 개발 기간
 
 **2025.11.20 ~ 2025.11.23**
