@@ -19,7 +19,7 @@ const Blog = () => {
                             width={1100}
                             height={400}
                             quality={100}
-                            property
+                            priority
                             style={{cursor: "pointer"}}
                         />
                     </Link>
