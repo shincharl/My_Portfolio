@@ -14,9 +14,9 @@ const ContactMe = () => {
 
         if (!form) return;
 
-        const name = form.name.value.trim();
-        const email = form.email.value.trim();
-        const message = form.message.value.trim();
+        const name = form.elements.namedItem("name") as HTMLInputElement | null;
+        const email = form.elements.namedItem("email") as HTMLInputElement | null;
+        const message = form.elements.namedItem("message") as HTMLTextAreaElement | null;
 
         if(!name || !email || !message){
             alert("이름, 이메일, 메시지는 반드시 입력해야 합니다.");
@@ -28,16 +28,12 @@ const ContactMe = () => {
             "template_m0el64b",
             form,
             "X4NYz2JCdShwD74pK"
-        ).then((result)=>{
-
-            console.log(result.text);
+        ).then(()=>{
             alert("메일이 성공적으로 전송되었습니다!");
             window.location.reload();
 
-        }).catch((error)=>{
-            console.error(error.text);
+        }).catch(()=>{
             alert("메일 전송에 실패했습니다.");
-            window.location.reload();
         });
     };
 
@@ -60,7 +56,7 @@ const ContactMe = () => {
 
                         <input type="text" id="interestedIn" name="interestedIn" placeholder="Interested In"/>
 
-                        <textarea typeof="message" id="message" name="message" placeholder="Message" />
+                        <textarea id="message" name="message" placeholder="Message" />
 
                         <button type="submit">SEND EMAIL →</button>
                     </form>
