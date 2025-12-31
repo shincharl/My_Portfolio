@@ -1,15 +1,10 @@
+
 <!-- 상단 헤더 이미지 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=250&section=header&text=My%20Portfolio%20Site%20v1.0&fontSize=50"/>
-<!-- 상단 헤더 이미지 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=250&section=header&text=My%20Portfolio%20Site%20v1.0&fontSize=50"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=250&section=header&text=My%20Portfolio%20Site%20v1.1&fontSize=50"/>
 
 <!-- 메인 이미지 -->
 <p align="center">
-<<<<<<< HEAD
-<img src="https://github.com/shincharl/My_Portfolio/blob/master/public/ReadMeMain.JPG" width="400" alt="웹사이트 대표 이미지"/>
-=======
-  <img src="https://raw.githubusercontent.com/shincharl/My_Portfolio/master/public/ReadMeMain.JPG" width="400" alt="웹사이트 대표 이미지" />
->>>>>>> fe26e4cf0951346bb503ad26d01e927a9202155b
+  <img width="1905" height="5469" alt="Screenshot 2025-12-31 at 15 10 20" src="https://github.com/user-attachments/assets/7fb79af4-026d-44d0-8c98-4186de1d83f4" />
 </p>
 
 <br><br>
