@@ -7,15 +7,14 @@ import Projects from "@/components/Projects";
 import Blog from "@/components/Blog";
 import ContactMe from "@/components/Contactme";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700']});
 
 const projects = [
-  { src: "/project1.jpg", alt: "강아지 산책 서비스 이미지", height: 200 },
-  { src: "/project2.jpg", alt: "포트폴리오 사이트 서비스 이미지", height: 200 },
-  // { src: "/online.jpg", alt: "프로그래머 이미지", height: 180 },
-  // { src: "/code.jpg", alt: "웹 디자인 이미지", height: 220 },
-  // { src: "/laptop.jpg", alt: "코드 이미지", height: 270 },
+  { src: "/project1.jpg", alt: "강아지 산책 서비스 이미지", height: 200, link: "https://github.com/shincharl/Dog_Go_Frontend"},
+  { src: "/eduProject.png", alt: "1:1 과외 서비스 이미지", height: 180, link: "https://github.com/shincharl/homeSchools"},
+  { src: "/project2.jpg", alt: "포트폴리오 사이트 서비스 이미지", height: 200, link: "https://github.com/shincharl/My_Portfolio"},
 ];
 
 export default function Home() {
@@ -83,15 +82,43 @@ export default function Home() {
         </div>
 
         <div className={Styles.mainImage}>
-          <Image 
-            src={projects[imageIndex].src}
-            alt={projects[imageIndex].alt}
-            width={850}
-            height={650}
-            quality={100}
-          />
+          {projects[imageIndex].link ? (
+            <Link
+              href={projects[imageIndex].link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={projects[imageIndex].src}
+                alt={projects[imageIndex].alt}
+                width={850}
+                height={650}
+                quality={100}
+                style={{ cursor: "pointer" }}
+              />
+            </Link>
+          ): (
+            <Image
+              src={projects[imageIndex].src}
+              alt={projects[imageIndex].alt}
+              width={850}
+              height={650}
+              quality={100}
+            />
+          )}
+
           <div className={Styles.projectGoWrap}>
-            <button className={Styles.projectGo}>VIEW PROJECT →</button>
+            {projects[imageIndex].link && (
+              <Link
+                href={projects[imageIndex].link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={Styles.projectGo}>
+                  View Page →
+                </button>
+              </Link>
+            )}
           </div>
         </div>
       </div>

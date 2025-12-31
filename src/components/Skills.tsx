@@ -3,7 +3,9 @@ import Image from 'next/image';
 import {HTML5, JavaScript, CSS3, Java, 
     TypeScript, Spring, Oracle, MariaDB, React, 
     Redux, NextJs, Supabase, Linux, PostgreSQL,
-    AWS} from "developer-icons";
+    AWS,VercelDark,
+    Heroku,
+    Railway} from "developer-icons";
 const Skills = () => {
     return (
         <>
@@ -31,7 +33,7 @@ const Skills = () => {
                             <React size={48}/>
                             <Redux size={48}/>
                             <NextJs size={48}/>
-                            <Supabase size={48}/>
+                            <VercelDark size={48}/>
                         </div>
                     </div>
 
@@ -43,7 +45,8 @@ const Skills = () => {
                             <Oracle size={48}/>
                             <MariaDB size={48}/>
                             <PostgreSQL size={48}/>
-                            <AWS size={48}/>
+                            <Heroku size={48}/>
+                            <Railway size={48}/>
                         </div>
                     </div>
                 </div>

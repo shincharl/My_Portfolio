@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Styles from '@/styles/projects.module.css';
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 // 예제 이미지 데이터 (height를 랜덤으로 지정)
 const images = [
@@ -44,21 +45,32 @@ const Projects = () => {
                 {projects.map((project, idx) => (
                     <li key={idx} className={Styles.projectCard}>
                         <div className={Styles.cardWrapper}>
-                            <Image
-                                src={project.image}
-                                alt={project.name}
-                                width={300}
-                                height={200}
-                                className={Styles.image}
-                                quality={100}
-                            />
+                            <Link
+                                href={project.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Image
+                                    src={project.image}
+                                    alt={project.name}
+                                    width={300}
+                                    height={200}
+                                    className={Styles.image}
+                                    quality={100}
+                                    style={{cursor: "pointer"}}
+                                />
+                            </Link>
 
                             <div className={Styles.projectGoWrap}>
-                                <a href={project.url} target="_blank" rel="noopener noreferrer" className={Styles.projectGo}>
-                                    Visit {project.name} →
-                                </a>
+                                <Link
+                                    href={project.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={Styles.projectGo}
+                                >
+                                     Visit {project.name} →
+                                </Link>
                             </div>
-
                         </div>
                     </li>
                 ))}
