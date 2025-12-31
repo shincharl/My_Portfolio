@@ -1,5 +1,7 @@
 <!-- 상단 헤더 이미지 -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=250&section=header&text=My%20Portfolio%20Site%20v1.0&fontSize=50"/>
+<!-- 상단 헤더 이미지 -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=250&section=header&text=My%20Portfolio%20Site%20v1.0&fontSize=50"/>
 
 <!-- 메인 이미지 -->
 <p align="center">
