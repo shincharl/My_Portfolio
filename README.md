@@ -4,8 +4,6 @@
 
 <!-- 메인 이미지 -->
 <p align="center">
-<img src="https://github.com/shincharl/My_Portfolio/blob/master/public/ReadMeMain.JPG" width="400" alt="웹사이트 대표 이미지"/>
-=======
   <img src="https://raw.githubusercontent.com/shincharl/My_Portfolio/master/public/ReadMeMain.JPG" width="400" alt="웹사이트 대표 이미지" />
 </p>
 
