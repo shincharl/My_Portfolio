@@ -1,0 +1,34 @@
+.wrap{
+    display: flex; /*가로 배열 */
+    justify-content: space-between; /* 좌우 양쪽 정렬 */
+    align-items: center; /* 상하 중앙 정렬 */
+    width: 80%; /* 헤더 가로 폭 */
+}
+
+.link {
+    text-decoration: none;
+    color: inherit; /*부모 글자색 상속*/
+}
+
+.logo{
+    width: 200px;
+    margin-left: 10%;
+}
+
+.logo p {
+    display: block;
+    max-width: 80%;
+    height: auto;
+}
+
+.headerList{
+    display: flex; /*가로 배열*/
+    justify-content: flex-end;
+    flex: 1;
+    list-style: none;
+}
+
+.listItem:not(:last-child){
+    margin-right: 50px;
+}
+
