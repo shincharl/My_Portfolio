@@ -10,7 +10,7 @@
 ## 배포 주소
 
 **Vercel**  
-https://my-portfolio-m81x.vercel.app/
+https://my-portfolioss-fawn.vercel.app/
 
 ---
 
