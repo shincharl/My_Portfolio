@@ -1,35 +1,119 @@
+# Shin's Portfolio
 
-<!-- 상단 헤더 이미지 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=250&section=header&text=My%20Portfolio%20Site%20v1.1&fontSize=50"/>
+프론트엔드부터 백엔드, AI 연동, 데이터베이스, 배포까지  
+직접 구현하며 만든 **개인 포트폴리오 사이트**입니다.
 
-<!-- 메인 이미지 -->
-<p align="center">
-  <img width="1905" height="5469" alt="Screenshot 2025-12-31 at 15 10 20" src="https://github.com/user-attachments/assets/7fb79af4-026d-44d0-8c98-4186de1d83f4" />
-</p>
+배운 기술과 프로젝트 경험, 블로그, 연락처까지 한 곳에서 볼 수 있도록 구성했습니다.
 
-<br><br>
+---
 
-사이트 주소 : https://my-portfolio-m81x.vercel.app/
+## 배포 주소
 
-## 🗓️ 개발 기간
+**Vercel**  
+https://my-portfolio-m81x.vercel.app/
 
-**2025.11.20 ~ 2025.11.23**
+---
 
-<br>
+## 개발 기간
 
-## 👩‍💻 기술 스택
+**2025.11.20 ~ 2025.11.23**  
+이후 디자인 개선 및 섹션 리팩토링 진행
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,git,supabase" />
-</p>
+---
 
-<br>
+## 프로젝트 소개
 
-## 💁 프로젝트 소개
+이 프로젝트는 저의 개발 경험과 프로젝트를 정리한 **개인 포트폴리오 웹사이트**입니다.
 
-- 지금까지 만든 모든 프로젝트 및 개발자 프로필을 소개하는 **포트폴리오 사이트**입니다.
-- 페이지 기반 라우팅 방식의 **Next.js(Page Router)** 버전으로 제작하였습니다.
-- 새로운 프로젝트가 추가될 때마다 **GitHub API**를 통해 자동으로 프로젝트 목록이 업데이트됩니다.
-- **Message.js API** 기반의 Contact Me 기능을 통해 수신된 메일을 실시간으로 확인할 수 있습니다.
+다음과 같은 내용을 담고 있습니다.
 
-<br><br>
+- 개발자 소개 및 프로필
+- 기술 스택 정리
+- 주요 프로젝트 목록
+- 기술 블로그 링크
+- 이메일 문의 기능
+
+기존 버전 이후 전체 UI를 더 깔끔하게 정리하고,  
+각 섹션을 카드형 레이아웃으로 재구성해 가독성과 완성도를 높였습니다.
+
+---
+
+## 주요 기능
+
+### Home
+
+- 대표 프로젝트 슬라이드
+- 프로젝트 미리보기 및 이동 버튼
+- 스크롤 위치에 따른 맨 위로 이동 버튼
+
+### About Me
+
+- 이름, 지역, 학력, 자격증 등 기본 프로필 정보 제공
+- 카드형 레이아웃으로 정돈된 자기소개 섹션 구성
+
+### Skills
+
+- Frontend / Backend / AI / Database / Infra / Tools 분류
+- 기술 스택을 한눈에 볼 수 있도록 구성
+
+### Projects
+
+- 주요 프로젝트 목록 카드 UI 제공
+- 프로젝트 링크를 통해 GitHub 또는 배포 페이지로 이동 가능
+
+### Blog
+
+- 기술 블로그 바로가기 제공
+- 학습 내용과 트러블슈팅 기록 정리
+
+### Contact Me
+
+- EmailJS 기반 메일 전송 기능
+- 이름, 이메일, 관심 분야, 메시지 입력 후 문의 가능
+
+---
+
+## 기술 스택
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- TypeScript
+- React
+- Next.js
+
+### Backend / API
+
+- Node.js
+- EmailJS
+- GitHub API
+
+### AI / Learning
+
+- Python
+- FastAPI
+- LLaMA
+- ChatGPT
+
+### Database / Infra
+
+- MySQL
+- PostgreSQL
+- MariaDB
+- Oracle
+- Docker
+- AWS
+- Linux
+- Vercel
+- Railway
+- Heroku
+
+### Tools
+
+- Git
+- Figma
+- PowerPoint
+
+---
